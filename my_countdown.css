@@ -3,15 +3,15 @@
 
 @import url(http://fonts.googleapis.com/css?family=Teko:300,700);
 
-body { margin: 0; padding: 0; background-color: #092f6e; color: #fff; }
+body { margin: 0; padding: 0; background-color: #4d0066; color: #fff; }
 
 #world-premiere {
 	font-size: 16px;
 	font-family: 'Teko' sans-serif;
-	width: 500px;
+	width: 550px;
 	margin: 25px auto;
 	border: 1px solid rgba(255,255,255,.2);
-	background: #092f6e url(satellite_dish.jpg) no-repeat center bottom;
+	background: #5e0080 url(glitter.jpg) no-repeat center bottom;
 	min-height: 575px;
 }
 
@@ -34,7 +34,7 @@ body { margin: 0; padding: 0; background-color: #092f6e; color: #fff; }
 
 #world-premiere h2 {
 	font-size: 1.5em;
-	color: #6fb5f8;
+	color: #9600cc;
 	text-transform: uppercase;
 	font-weight: 700;
 	line-height: 18px;
@@ -49,19 +49,36 @@ body { margin: 0; padding: 0; background-color: #092f6e; color: #fff; }
 }
 #world-premiere .my-countdown .countdown-section {
 	display: inline-block; 
-	width: 120px; 
+	width: 130px; 
 }
 #world-premiere .my-countdown .countdown-amount {
 	display: block; 
-	color: #ffffff; 
+	color: #250033; 
 	font-size: 5.6em; 
 	line-height: 55px; 
 }
 #world-premiere .my-countdown .countdown-period {
 	display: block; 
-	color: #092f6e; 
+	color: #ffffff; 
 	font-size: 1.4em; 
 	font-weight: bold;
 	text-transform: uppercase;
 	letter-spacing: 2px; 
+	padding-top: 4px;
 }
+
+/*
+@media screen and (max-width: 525px) {
+
+	#world-premiere {
+		font-size: 12px;
+		width: 300px;
+		min-height: 465;
+		background-size: 400px auto;
+		}
+
+	#world-premiere .heading {
+		padding: 12px 0px 8px 0px
+	}
+}
+*/
