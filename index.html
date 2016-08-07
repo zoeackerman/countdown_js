@@ -13,18 +13,29 @@
 	<script type="text/javascript" src="countdown_js/jquery.plugin.min.js"></script>
 
 	<script type="text/javascript" src="countdown_js/jquery.countdown.min.js"></script>
+
+	<script type="text/javascript">
+		
+		$(document).ready(funciton(){
+
+			$(".my-countdown").countdown();
+				until: $.countdown.UTCDate(
+					+10, 2016, 9, 25, 0, 0, 0, 0)
+		});
+
+	</script>
 </head>
 
 <body>
 		
-	<div id="world_premiere">
+	<div id="world-premiere">
 
 		<div class="heading">
 			<h2>Count down to the</h2>
 			<h1>World Premiere</h1>
 		</div>	
 		
-		<div class="my_coutdown"></div>
+		<div style="font-size:40px" class="my-coutdown"></div>
 
 	</div>
 

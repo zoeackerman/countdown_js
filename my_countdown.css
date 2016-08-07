@@ -5,7 +5,7 @@
 
 body { margin: 0; padding: 0; background-color: #092f6e; color: #fff; }
 
-#world_premiere {
+#world-premiere {
 	font-size: 16px;
 	font-size: 'Teko';
 	font-family: sans-serif;
@@ -16,13 +16,13 @@ body { margin: 0; padding: 0; background-color: #092f6e; color: #fff; }
 	min-height: 575px;
 }
 
-#world_premiere .heading {
+#world-premiere .heading {
 	background-color: rgba(0,0,0,.5);
 	padding: 15px 0px 2px 0px;
 	margin: 0px 0px 30px 0px
 }
 
-#world_premiere h1 {
+#world-premiere h1 {
 	font-size: 4.2em;
 	color: #ffffff;
 	text-transform: uppercase;
@@ -33,7 +33,7 @@ body { margin: 0; padding: 0; background-color: #092f6e; color: #fff; }
 	text-align: center;
 }
 
-#world_premiere h2 {
+#world-premiere h2 {
 	font-size: 1.5em;
 	color: #6fb5f8;
 	text-transform: uppercase;
