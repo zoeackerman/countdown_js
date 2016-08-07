@@ -7,8 +7,7 @@ body { margin: 0; padding: 0; background-color: #092f6e; color: #fff; }
 
 #world-premiere {
 	font-size: 16px;
-	font-size: 'Teko';
-	font-family: sans-serif;
+	font-family: 'Teko' sans-serif;
 	width: 500px;
 	margin: 25px auto;
 	border: 1px solid rgba(255,255,255,.2);
